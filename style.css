@@ -1,0 +1,102 @@
+.tag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border-bottom: 1px solid #888888; */
+  font-size: 20px;
+}
+a {
+  text-align: center;
+  width: 100%;
+  padding: 0 0 10px 0;
+  margin: 0;
+  border-bottom: 2px solid #888888;
+  text-decoration: none;
+  color: black;
+}
+a:active, a:hover  {
+  border-bottom: 2px solid blue;
+}
+
+.container {
+  position: relative;
+  border: 1px solid rgb(180, 179, 179);
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 90%;
+  margin: 20px auto 0;
+  padding: 10px 0;
+}
+
+.box .display-header {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5px;
+  color: #888888;
+}
+
+.box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  font-size: 30px;
+}
+
+.box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 10px 0;
+  border-top: 1px solid rgb(180, 179, 179);
+}
+
+.box .btn button {
+  padding: 5px 12px;
+  margin: 0px 8px;
+  background-color: rgb(8, 64, 168);
+  color: white;
+  font-size: 18px;
+}
+button:hover {
+  background-color: rgb(17, 68, 179);
+}
+input[type=number] {
+  text-align: center;
+  border: none;
+  outline: none;
+  /* height: 20vh; */
+  width: 65px;
+  font-size: 2em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::placeholder {
+  font-size: 1em;
+}
+.display-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  margin-top: 0;
+}
+span {
+  min-height: 69px;
+  vertical-align: middle;
+  padding-top: 60px;
+}
+
+#time-display {
+  font-size: 4rem;
+}
